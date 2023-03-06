@@ -20,6 +20,8 @@ package config
 // Note that AIDL-generated modules must use vendor variants by default.
 var VndkMustUseVendorVariantList = []string{
 	"android.hardware.nfc@1.2",
+	"android.hardware.power-V3-ndk",
+	"android.hardware.power-V3-ndk_platform",
 	"libbinder",
 	"libcrypto",
 	"libexpat",
